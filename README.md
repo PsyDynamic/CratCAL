@@ -1,13 +1,8 @@
-# 📦CratCAL - An easy-to-use crate calculator 📈
+# 📦CratCAL - An easy-to-use crate calculator 📈  
 
----
-
-![sample](\img\example.png)
-
+![example](https://github.com/PsyDynamic/CratCAL/blob/main/img/example.png)  
 
 ## Table of Contents
-
----
 
 - [📦CratCAL - An easy-to-use crate calculator 📈](#cratcal---an-easy-to-use-crate-calculator-)
   - [Table of Contents](#table-of-contents)
@@ -25,8 +20,6 @@
 
 ## Overview
 
----
-
 `CratCAL` is a small Python script for accurately calculating the missing crates needed for empty running the production line 4.
 It helps the user to get faster and reliable to needed information.
 This also minimize the error of overfilling the magazine and needlessly extending the time to empty run the production line.
@@ -36,8 +29,6 @@ It's lightweight, easy to use and should run on anything that can handle .py fil
 
 ## Installation
 
----
-
 `CratCAL` is focused to run on a [Raspberry Pi](#raspberry-pi) (Linux), but you can run it on [Windows](#windows) or [Android](#android) too.
 
 ### Raspberry Pi
@@ -45,6 +36,7 @@ It's lightweight, easy to use and should run on anything that can handle .py fil
 1. Navigate to `/home/pi/` on your Raspberry Pi and put the `CratCAL.py` script in it.
 2. Now you have to open the `.bashrc` file that is also located in the directory.
 3. Add the following code at the end of the file and save it:
+   
    ```
    echo Running at boot 
    sudo python /home/pi/CratCAL.py
@@ -64,41 +56,40 @@ It's lightweight, easy to use and should run on anything that can handle .py fil
 ### Android
 
 >***INFO:***
-**This is NOT the intended way of using `CratCAL`!**
+**This is NOT the intended way of using `CratCAL`!**  
 Used lib's in the script will **NOT WORK PROBABLY** and can throw error's out in terminal!
 
-**1.** Go to the Google Play Store and download/install [Pydroid 3][Pydroid3].
+**1.** Go to the Google Play Store and download/install [Pydroid 3][Pydroid3].  
+
 **2.** Open it on your phone, navigate to the `Folder` icon on the top right.
   
-  ![Pydroid3.1](\img\Pydroid1.png)
+  ![Pydroid3.1](https://github.com/PsyDynamic/CratCAL/blob/main/img/Pydroid1.png)
 
 **3.** Click `Open` and search for the `CrateCAL.py` script and open it.
    
-   ![Pydroid3.2](\img\Pydroid2.png)
+   ![Pydroid3.2](https://github.com/PsyDynamic/CratCAL/blob/main/img/Pydroid2.png)
 
 **4.** After loading up the script, you can run it via the yellow `Play button`
    
-   ![Pydroid3.3](\img\Pydroid3.png)
+   ![Pydroid3.3](https://github.com/PsyDynamic/CratCAL/blob/main/img/Pydroid3.png)
 
 **5.** Now you can use it like on the other devices.
    
-   ![Pydroid3.4](\img\Pydroid5.png)
+   ![Pydroid3.4](https://github.com/PsyDynamic/CratCAL/blob/main/img/Pydroid5.png)
 
 ## Rundown
-
----
 
 **1.** On startup, `CratCAL` asks for the value of currently stored crates.
 The user have to check for this value and enter it, in this case `1080`
 
-![Rd.1](\img\Terminal_1.png)
+![Rd.1](https://github.com/PsyDynamic/CratCAL/blob/main/img/Terminal_1.png)
 
 **2.** Now you can see the calculated values. There meaning is as following:
 - Stored crates in %. (`40%`)
 - Needed crates/hub to reach 85%. (`1246 crates` , `6 Hub` , `5.8 Hub` true value)
 - Needed crates/hub to reach 100%. (`1656 crates` , `8 Hub` , `7.7 Hub` true value)
 
-![Rd.2](\img\Terminal_2.png)
+![Rd.2](https://github.com/PsyDynamic/CratCAL/blob/main/img/Terminal_2.png)
 
 >***INFO:***  
 `CratCAL` shows the **raised amount of crates** needed to reach 85% and 100%.
@@ -109,9 +100,6 @@ For double-checking reasons the **true value for Hub needed is in brackets**.
 
 **3.** In the last step, `CratCAL` asks if you want to restart. If so, press 1.
 Keep in mind that the screen clears after restarting.
- 
-
----
 
 ## Possible changes in the future
 
