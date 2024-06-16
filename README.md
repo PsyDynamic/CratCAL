@@ -17,7 +17,7 @@
     - [Windows](#windows)
     - [Android](#android)
   - [Rundown](#rundown)
-  - [**Possible changes in the future**](#possible-changes-in-the-future)
+  - [Possible changes in the future](#possible-changes-in-the-future)
 
 
 
@@ -113,7 +113,7 @@ Keep in mind that the screen clears after restarting.
 
 ---
 
-## **Possible changes in the future**
+## Possible changes in the future
 
 - [ ] Develop GUI for user inputs via Touchscreen
 - [ ] Communication Raspberry Pi and Siemens SPS (Automatically get current state of magazine)
