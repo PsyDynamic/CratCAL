@@ -2,7 +2,7 @@
 
 ---
 
-![sample](\example.png)
+![sample](\img\example.png)
 
 
 ## Table of Contents
@@ -50,7 +50,9 @@ It's lightweight, easy to use and should run on anything that can handle .py fil
    sudo python /home/pi/CratCAL.py
    ```
 4. Restart the Raspberry Pi and the `CratCAL` script execute on boot up.
+   
 ---
+
 ### Windows
 
 1. Go to the [Python][Python3] download page and download the latest Python 3 version.
@@ -58,6 +60,7 @@ It's lightweight, easy to use and should run on anything that can handle .py fil
 3. Now you can execute the `CratCAL.py` via Python 3, and it should look like the pictures in [Rundown](#rundown).
 
 ---
+
 ### Android
 
 >***INFO:***
@@ -67,21 +70,19 @@ Used lib's in the script will **NOT WORK PROBABLY** and can throw error's out in
 **1.** Go to the Google Play Store and download/install [Pydroid 3][Pydroid3].
 **2.** Open it on your phone, navigate to the `Folder` icon on the top right.
   
-  ![Pydroid3.1](\Pydroid1.png)
+  ![Pydroid3.1](\img\Pydroid1.png)
 
 **3.** Click `Open` and search for the `CrateCAL.py` script and open it.
    
-   ![Pydroid3.2](\Pydroid2.png)
+   ![Pydroid3.2](\img\Pydroid2.png)
 
 **4.** After loading up the script, you can run it via the yellow `Play button`
    
-   ![Pydroid3.3](\Pydroid3.png)
+   ![Pydroid3.3](\img\Pydroid3.png)
 
 **5.** Now you can use it like on the other devices.
    
-   ![Pydroid3.4](\Pydroid5.png)
-
-  
+   ![Pydroid3.4](\img\Pydroid5.png)
 
 ## Rundown
 
@@ -90,14 +91,14 @@ Used lib's in the script will **NOT WORK PROBABLY** and can throw error's out in
 **1.** On startup, `CratCAL` asks for the value of currently stored crates.
 The user have to check for this value and enter it, in this case `1080`
 
-![Rd.1](\1.png)
+![Rd.1](\img\Terminal_1.png)
 
 **2.** Now you can see the calculated values. There meaning is as following:
 - Stored crates in %. (`40%`)
 - Needed crates/hub to reach 85%. (`1246 crates` , `6 Hub` , `5.8 Hub` true value)
 - Needed crates/hub to reach 100%. (`1656 crates` , `8 Hub` , `7.7 Hub` true value)
 
-![Rd.2](\2.png)
+![Rd.2](\img\Terminal_2.png)
 
 >***INFO:***  
 `CratCAL` shows the **raised amount of crates** needed to reach 85% and 100%.
