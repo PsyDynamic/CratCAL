@@ -5,7 +5,6 @@
 ## Table of Contents
 
 - [📦CratCAL - An easy-to-use crate calculator 📈](#cratcal---an-easy-to-use-crate-calculator-)
-  - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
   - [Installation](#installation)
     - [Raspberry Pi](#raspberry-pi)
@@ -47,7 +46,7 @@ It's lightweight, easy to use and should run on anything that can handle .py fil
 
 ### Windows
 
-1. Go to the [Python][Python3] download page and download the latest Python 3 version.
+1. Go to the [Python download page][Python3] and download the latest Python 3 version.
 2. Take the steps through the installer.
 3. Now you can execute the `CratCAL.py` via Python 3, and it should look like the pictures in [Rundown](#rundown).
 
